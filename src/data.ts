@@ -21,6 +21,12 @@ export const data: IData = {
             alt: "phone-icon",
             link: `tel:${phone}`,
             text: phone.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3'),
+        },
+        {
+            icon: "/src/assets/github.svg",
+            alt: "github-icon",
+            link: `https://github.com/130FIT`,
+            text: "https://github.com/130FIT"
         }
     ],
     about: {
@@ -55,7 +61,7 @@ export const data: IData = {
                     en: "Developed CLI tools for API unit testing. [GoLang, .Net Core C#]"
                 }
             ],
-            techStack: ["Spring Boot", "Angular.ts", "Docker", "PostgreSQL", "Jira"]
+            techStack: ["Spring Boot", "Angular.ts",".Net Core", "Docker", "PostgreSQL", "Jira"]
         },
         {
             title: {
