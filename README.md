@@ -21,5 +21,3 @@ npm run dev
 
 # Developer
 - [130FIT](https://github.com/130FIT) Supakit Buadokmai
-## License
-This project is licensed under the MIT License.
