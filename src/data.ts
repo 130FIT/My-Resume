@@ -30,19 +30,19 @@ export const data: IData = {
         }
     ],
     about: {
-        th: "ผมเป็นนักศึกษาด้านไอทีที่มีพื้นฐานใน Full-Stack Development และได้พัฒนาโปรเจคที่รองรับ Transaction สูง ด้วยเทคโนโลยี เช่น Spring Boot, Angular.ts, Docker และ PostgreSQL นอกจากนี้ ผมยังมีประสบการณ์ในงานสตาร์ทอัพ พัฒนาทักษะการทำงานเป็นทีม การเป็นผู้นำ และการสื่อสาร ผมกำลังมองหาโอกาสเติบโตในสาย Programmer และมีส่วนร่วมในการพัฒนาเทคโนโลยี",
-        en: "I am an IT student with a background in Full-Stack Development, experienced in building high-transaction applications using Spring Boot, Angular.ts, Docker, and PostgreSQL. I have also participated in startup competitions, enhancing teamwork, leadership, and communication skills. I am seeking opportunities to grow as a Programmer and contribute to the tech industry."
+        th: "ผมเป็นนักศึกษาสาขาเทคโนโลยีสารสนเทศที่มีประสบการณ์ด้านการพัฒนา Full-Stack Development และได้พัฒนาโปรเจคที่รองรับ Transaction จำนวนมาก ให้แก่หน่วยงานภาครัฐ ด้วยเทคโนโลยี เช่น Spring Boot, Angular.ts, Docker และ PostgreSQL นอกจากนี้ ผมยังมีประสบการณ์ในงานสตาร์ทอัพ พัฒนาทักษะการทำงานเป็นทีม การเป็นผู้นำ และการสื่อสาร ผมกำลังมองหาโอกาสเติบโตในสาย Programmer และมีส่วนร่วมในการพัฒนาเทคโนโลยี",
+        en: "I am an IT student with experience in Full-Stack Development, specializing in building high-transaction applications for government agencies using technologies such as Spring Boot, Angular.ts, Docker, and PostgreSQL. Additionally, I have gained valuable experience in startup projects, which enhanced my teamwork, leadership, and communication skills. I am seeking opportunities to grow as a Software Developer and contribute to advancing technology in the industry."
     },
     experiences: [
         {
             title: {
-                th: "BackEnd Developer (นักศึกษาฝึกงาน)",
-                en: "BackEnd Developer (Internship)"
+                th: "Developer (นักศึกษาฝึกงาน)",
+                en: "Developer (Intern)"
             },
             company: "BRAINERGY Co.,Ltd.",
             link: "https://brainergy.digital/",
             startDate: "2024-06",
-            // endDate: "2025-02", //todo uncomment this line when the internship is finished
+            endDate: "2025-02", //todo uncomment this line when the internship is finished
             details: [
                 {
                     th: "พัฒนาระบบ Core สำหรับ e-wallet พร้อมระบบ Backoffice และ OpenAPI เพื่อรองรับการทำงานของแพลตฟอร์ม e-wallet (Angular.ts, Spring Boot Java)",
@@ -53,12 +53,16 @@ export const data: IData = {
                     en: "Developed a PDF/A-3 document generation, PDF signing, and XML generation system for e-tax invoices. [Spring Boot Kotlin]"
                 },
                 {
-                    th: "พัฒนา Frontend สำหรับการจัดการราคาสินค้าและโปรโมชั่น โดยเน้นความง่ายในการใช้งาน [Angular.ts]",
-                    en: "Built a frontend web interface for managing pricing and promotions, ensuring usability and efficiency. [Angular.ts]"
+                    th: "พัฒนาระบบสำหรับการจัดการราคาสินค้าและโปรโมชั่น ให้กับหน่วยงานภาครัฐ [Angular.ts, Spring Boot Java]",
+                    en: "Developed a product pricing and promotion management system for government agencies. [Angular.ts, Spring Boot Java]"
                 },
+                // {
+                //     th: "พัฒนา CLI tools สำหรับการ Unit Testing API [GoLang, .Net Core C#]",
+                //     en: "Developed CLI tools for API unit testing. [GoLang, .Net Core C#]"
+                // },
                 {
-                    th: "พัฒนา CLI tools สำหรับการ Unit Testing API [GoLang, .Net Core C#]",
-                    en: "Developed CLI tools for API unit testing. [GoLang, .Net Core C#]"
+                    th: "พัฒนาระบบระบบแนะนำสินค้า โดยใช้ข้อมูลจากแบบสำรวจ [Angular.ts, Spring Boot Java]",
+                    en: "Developed a Retail Recommendation System using Servey Data [Angular.ts, Spring Boot Java]"
                 }
             ],
             techStack: ["Spring Boot", "Angular.ts",".Net Core", "Docker", "PostgreSQL", "Jira"]
@@ -66,7 +70,7 @@ export const data: IData = {
         {
             title: {
                 th: "BackEnd Developer (นักศึกษาฝึกงาน)",
-                en: "BackEnd Developer (Internship)"
+                en: "BackEnd Developer (Intern)"
             },
             company: "BRAINERGY Co.,Ltd.",
             link: "https://brainergy.digital/",
@@ -194,11 +198,11 @@ export const data: IData = {
     skills: [
         {
             title: "Programming Languages",
-            details: ["Java", "Kotlin", "Python", "JavaScript", "TypeScript", "GoLang", "C#", "Bash"]
+            details: ["Java", "Kotlin", "Python", "JavaScript", "TypeScript", "GoLang", "C#", "Bash","Scala"]
         },
         {
             title: "BackEnd",
-            details: ["Spring Boot", "Django", ".Net Core", "Kubernetes", "Docker", "PostgreSQL", "MySQL", "MongoDB"]
+            details: ["Spring Boot", "Django", "Play",".Net Core", "Kubernetes", "Docker", "PostgreSQL", "MySQL", "MongoDB"]
         },
         {
             title: "FrontEnd",
