@@ -95,9 +95,9 @@ a {
 
 .section {
   width: 100%;
-  padding-top: 0.7rem;
-  border-top: 1px solid var(--section-border-color);
-  margin-top: 1rem;
+  padding-top: 0.1rem;
+  /* border-top: 1px solid var(--section-border-color); */
+  margin-top: 0.5rem;
 
   .title {
     border-bottom: 2px solid var(--font-color);
@@ -109,7 +109,6 @@ a {
     }
   }
 }
-
 @media print {
   body {
     background: none;
@@ -121,4 +120,7 @@ a {
     box-shadow: none;
     border: none;
   }
+}
+* {
+  box-sizing: none;
 }

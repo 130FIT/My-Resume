@@ -134,7 +134,7 @@
     </div>
     <div id="education-and-skills" class="section">
         <div class="title">
-            <h2>skills & education</h2>
+            <h2>education & skills</h2>
         </div>
         <div class="row m-0 gap-0 w-100 mw-100">
             <div id="education" class="col p-0">

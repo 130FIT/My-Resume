@@ -30,10 +30,67 @@ export const data: IData = {
         }
     ],
     about: {
-        th: "ผมเป็นนักศึกษาสาขาเทคโนโลยีสารสนเทศที่มีประสบการณ์ด้านการพัฒนา Full-Stack Development และได้พัฒนาโปรเจคที่รองรับ Transaction จำนวนมาก ให้แก่หน่วยงานภาครัฐ ด้วยเทคโนโลยี เช่น Spring Boot, Angular.ts, Docker และ PostgreSQL นอกจากนี้ ผมยังมีประสบการณ์ในงานสตาร์ทอัพ พัฒนาทักษะการทำงานเป็นทีม การเป็นผู้นำ และการสื่อสาร ผมกำลังมองหาโอกาสเติบโตในสาย Programmer และมีส่วนร่วมในการพัฒนาเทคโนโลยี",
-        en: "I am an IT student with experience in Full-Stack Development, specializing in building high-transaction applications for government agencies using technologies such as Spring Boot, Angular.ts, Docker, and PostgreSQL. Additionally, I have gained valuable experience in startup projects, which enhanced my teamwork, leadership, and communication skills. I am seeking opportunities to grow as a Software Developer and contribute to advancing technology in the industry."
+        th: "ผมเป็น Software Developer ที่มีความเชี่ยวชาญในด้าน Full-Stack Development สำหรับแอปพลิเคชันที่รองรับธุรกรรมปริมาณมาก ด้วยความสามารถในการใช้งานเทคโนโลยีต่างๆ เช่น Java Spring Boot, Scala Play, Angular (TypeScript), Docker และ PostgreSQL ผมมีผลงานที่ประสบความสำเร็จในโครงการทั้งภาครัฐและสตาร์ทอัพ ทักษะทางเทคนิคของผมครอบคลุมด้าน Data Engineering และ DevOps โดยสามารถบริหารจัดการการไหลของข้อมูลผ่าน AWS S3 และ Airflow ปรับปรุงกระบวนการ Build ด้วย Team City รวมถึงการบริหาร Kubernetes clusters ผมมุ่งมั่นเรียนรู้และพัฒนาอย่างต่อเนื่องเพื่อสร้างซอฟต์แวร์ที่มีคุณภาพสูงและรองรับการเติบโตของอุตสาหกรรม",
+        en: "I am a Software Developer specializing in full-stack development for high-transaction applications. With robust expertise in technologies such as Java Spring Boot, Scala Play, Angular (TypeScript), Docker, and PostgreSQL, I have successfully delivered projects in both government and startup environments. My technical proficiency extends to data engineering and DevOps, where I manage data workflows using AWS S3 and Airflow, optimize build processes with Team City, and orchestrate Kubernetes clusters. I am committed to continuous learning and innovation, ensuring the delivery of scalable, high-quality software solutions."
     },
     experiences: [
+        {
+            title: {
+                th: "Full-Stack Developer",
+                en: "Full-Stack Developer"
+            },
+            company: "BRAINERGY Co.,Ltd.",
+            link: "https://brainergy.digital/",
+            startDate: "2025-01",
+            // endDate: "2025-02",
+            details: [
+                {
+                    th:"ความเชี่ยวชาญทางเทคนิค: แก้ไขปัญหาและพัฒนาโปรเจคด้วยเทคโนโลยี Java Spring Boot, Scala Play และ Angular (TypeScript) ในสภาพแวดล้อมที่มีความซับซ้อน",
+                    en:"Technical Expertise: Resolve complex issues and develop projects using Java Spring Boot, Scala Play, and Angular in sophisticated environments"
+                },
+                {
+                    th:"จัดการ Kubernetes และปรับปรุงกระบวนการ Build บน Team City เพื่อเพิ่มประสิทธิภาพและความเสถียรของระบบ",
+                    en:"DevOps & Automation Proficiency: Manage Kubernetes clusters and optimize build processes on Team City to enhance system performance and reliability"
+                },
+                {
+                    th:"Data Engineering และ SQL: จัดการข้อมูลจาก AWS S3 ผ่าน Airflow และเขียน SQL สำหรับ PostgreSQL, SQL Server, และ Oracle",
+                    en:"Data Engineering & SQL: Handle data workflows from AWS S3 via Airflow and write SQL queries for PostgreSQL, SQL Server, and Oracle databases"
+                }
+                // {
+                //     th:"สนับสนุนและแก้ไขปัญหาโปรเจค Java Spring Boot, Scala Play, และ Angular",
+                //     en:"Provide expert support and issue resolution for projects using Java Spring Boot, Scala Play, and Angular"
+                // },
+                // {
+                //     th:"จัดการข้อมูลจาก AWS S3 สู่ระบบ Local ผ่าน Airflow",
+                //     en:"Manage data workflows from AWS S3 to local environments via Airflow"
+                // },
+                // {
+                //     th:"Debug และแก้ไขปัญหาได้อย่างรวดเร็วในสถานการณ์ฉุกเฉิน",
+                //     en:"Excel in rapid debugging and critical problem resolution"
+                // },
+                // {
+                //     th:"พัฒนาทักษะ DevOps ด้วยการจัดการ Cluster, Kubernetes และปรับปรุงขั้นตอน Build บน Team City",
+                //     en:"Develop advanced DevOps skills with cluster management, Kubernetes, and optimized build processes on Team City"
+                // },
+                // {
+                //     th:"เขียน SQL สำหรับจัดการข้อมูลทั้ง PostgreSQL, SQL Server และ Oracle",
+                //     en:"Write SQL queries to manage data across PostgreSQL, SQL Server, and Oracle databases"
+                // },
+                // {
+                //     th:"จัดทำเอกสาร Integration และ API Specification พร้อมประสานงานกับลูกค้า",
+                //     en:"Prepare high-quality integration documentation and API specifications while effectively communicating with clients"
+                // }
+            ],
+            techStack: [
+                "Spring Boot",
+                "Angular.ts",
+                "Docker",
+                "PostgreSQL",
+                "Kubernetes",
+                "AWS",
+                "Python",
+            ]
+        },
         {
             title: {
                 th: "Developer (นักศึกษาฝึกงาน)",
@@ -42,7 +99,7 @@ export const data: IData = {
             company: "BRAINERGY Co.,Ltd.",
             link: "https://brainergy.digital/",
             startDate: "2024-06",
-            endDate: "2025-02", //todo uncomment this line when the internship is finished
+            endDate: "2025-02",
             details: [
                 {
                     th: "พัฒนาระบบ Core สำหรับ e-wallet พร้อมระบบ Backoffice และ OpenAPI เพื่อรองรับการทำงานของแพลตฟอร์ม e-wallet (Angular.ts, Spring Boot Java)",
@@ -60,12 +117,12 @@ export const data: IData = {
                 //     th: "พัฒนา CLI tools สำหรับการ Unit Testing API [GoLang, .Net Core C#]",
                 //     en: "Developed CLI tools for API unit testing. [GoLang, .Net Core C#]"
                 // },
-                {
-                    th: "พัฒนาระบบระบบแนะนำสินค้า โดยใช้ข้อมูลจากแบบสำรวจ [Angular.ts, Spring Boot Java]",
-                    en: "Developed a Retail Recommendation System using Servey Data [Angular.ts, Spring Boot Java]"
-                }
+                // {
+                //     th: "พัฒนาระบบระบบแนะนำสินค้า โดยใช้ข้อมูลจากแบบสำรวจ [Angular.ts, Spring Boot Java]",
+                //     en: "Developed a Retail Recommendation System using Servey Data [Angular.ts, Spring Boot Java]"
+                // }
             ],
-            techStack: ["Spring Boot", "Angular.ts",".Net Core", "Docker", "PostgreSQL", "Jira"]
+            techStack: ["Spring Boot", "Angular.ts", ".Net Core", "Docker", "PostgreSQL", "Jira"]
         },
         {
             title: {
@@ -190,19 +247,19 @@ export const data: IData = {
                 th: "สถาบันการจัดการปัญญาภิวัฒน์",
                 en: "Panyapiwat Institute of Management",
             },
-            isGraduated: false,
+            isGraduated: true,
             year: "2021",
             gpa: "4.00"
         }
     ],
     skills: [
-        {
-            title: "Programming Languages",
-            details: ["Java", "Kotlin", "Python", "JavaScript", "TypeScript", "GoLang", "C#", "Bash","Scala"]
-        },
+        // {
+        //     title: "Programming Languages",
+        //     details: ["Java", "Kotlin", "Python", "JavaScript", "TypeScript", "GoLang", "C#", "Bash", "Scala"]
+        // },
         {
             title: "BackEnd",
-            details: ["Spring Boot", "Django", "Play",".Net Core", "Kubernetes", "Docker", "PostgreSQL", "MySQL", "MongoDB"]
+            details: ["Spring Boot", "Django", "Play", ".Net Core", "Kubernetes", "Docker", "PostgreSQL", "MySQL", "MongoDB"]
         },
         {
             title: "FrontEnd",
@@ -210,7 +267,7 @@ export const data: IData = {
         },
         {
             title: "Tools",
-            details: ["Git", "Jira", "ClickUp", "TeamCity", "ArgoCD", "Firebase", "Google Cloud", "DigitalOcean"]
+            details: ["Git", "Jira", "ClickUp", "TeamCity", "AWS", "ArgoCD", "Firebase", "Google Cloud", "DigitalOcean"]
         },
         // {
         //     title: "OS",
