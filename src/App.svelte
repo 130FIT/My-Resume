@@ -1,5 +1,5 @@
 <script>
-  import { Router, Route, navigate } from "svelte-routing";
+  import { Router, Route } from "svelte-routing";
   import Home from "./Home.svelte";
 
   export let url = "";

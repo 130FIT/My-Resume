@@ -1,3 +1,5 @@
+export type Lang = "th" | "en";
+
 export interface IData {
     fullName: ILanguage,
     email: string,
@@ -5,7 +7,7 @@ export interface IData {
     infos: IInfo[],
     about: ILanguage,
     experiences: IExperience[],
-    prijectAndRewards: IProjectAndReward[],
+    projectAndRewards: IProjectAndReward[],
     educations: IEducation[],
     skills: ISkill[]
 }
@@ -29,7 +31,8 @@ export interface IExperience {
     startDate: string,
     endDate?: string,
     details: ILanguage[],
-    techStack: string[]
+    techStack: string[],
+    type: "professional" | "early-career"
 }
 
 export interface IProjectAndReward {
@@ -44,7 +47,7 @@ export interface IEducation {
     faculty: ILanguage,
     major: ILanguage,
     school: ILanguage,
-    year: string,
+    year: number,
     isGraduated: boolean,
     gpa: string
 }

@@ -1,6 +1,6 @@
 import type { IData } from "./interface";
 
-const email = "ssboatss03@hotmail.com";
+const email = "supakit_buadokmai@hotmail.com";
 const phone = "0889905652";
 export const data: IData = {
     fullName: {
@@ -30,7 +30,8 @@ export const data: IData = {
         }
     ],
     about: {
-        th: "ผมเป็น Software Developer ที่มีความเชี่ยวชาญในด้าน Full-Stack Development สำหรับแอปพลิเคชันที่รองรับธุรกรรมปริมาณมาก ด้วยความสามารถในการใช้งานเทคโนโลยีต่างๆ เช่น Java Spring Boot, Scala Play, Angular (TypeScript), Docker และ PostgreSQL ผมมีผลงานที่ประสบความสำเร็จในโครงการทั้งภาครัฐและสตาร์ทอัพ ทักษะทางเทคนิคของผมครอบคลุมด้าน Data Engineering และ DevOps โดยสามารถบริหารจัดการการไหลของข้อมูลผ่าน AWS S3 และ Airflow ปรับปรุงกระบวนการ Build ด้วย Team City รวมถึงการบริหาร Kubernetes clusters ผมมุ่งมั่นเรียนรู้และพัฒนาอย่างต่อเนื่องเพื่อสร้างซอฟต์แวร์ที่มีคุณภาพสูงและรองรับการเติบโตของอุตสาหกรรม",
+        th: "Software Developer เชี่ยวชาญ Full-Stack Development สำหรับแอปพลิเคชันธุรกรรมปริมาณมาก มีประสบการณ์ทั้งภาครัฐและสตาร์ทอัพ ใช้เทคโนโลยี Java Spring Boot, Angular, Docker, PostgreSQL และมีทักษะ DevOps, Data Engineering",
+        // en: "Software Developer specializing in full-stack development for high-transaction applications. Experienced in government and startup projects using Java Spring Boot, Angular, Docker, PostgreSQL with DevOps and Data Engineering proficiency."
         en: "I am a Software Developer specializing in full-stack development for high-transaction applications. With robust expertise in technologies such as Java Spring Boot, Scala Play, Angular (TypeScript), Docker, and PostgreSQL, I have successfully delivered projects in both government and startup environments. My technical proficiency extends to data engineering and DevOps, where I manage data workflows using AWS S3 and Airflow, optimize build processes with Team City, and orchestrate Kubernetes clusters. I am committed to continuous learning and innovation, ensuring the delivery of scalable, high-quality software solutions."
     },
     experiences: [
@@ -39,62 +40,67 @@ export const data: IData = {
                 th: "Full-Stack Developer",
                 en: "Full-Stack Developer"
             },
-            company: "BRAINERGY Co.,Ltd.",
-            link: "https://brainergy.digital/",
-            startDate: "2025-01",
-            // endDate: "2025-02",
+            company: "TP Consulting Co., Ltd. (Site MSIG Insurance (Thailand) Public Company Limited)",
+            link: "https://tpcrecruit.com",
+            startDate: "2025-05",
             details: [
                 {
-                    th:"ความเชี่ยวชาญทางเทคนิค: แก้ไขปัญหาและพัฒนาโปรเจคด้วยเทคโนโลยี Java Spring Boot, Scala Play และ Angular (TypeScript) ในสภาพแวดล้อมที่มีความซับซ้อน",
-                    en:"Technical Expertise: Resolve complex issues and develop projects using Java Spring Boot, Scala Play, and Angular in sophisticated environments"
+                    th: "Rewrote ระบบหลังบ้านจัดการ Email Job ปริมาณมากด้วย Microsoft Graph API และพัฒนาระบบทดแทน RPA ด้วย Selenium Spring Boot สำหรับเชื่อมต่อธนาคารและ OIC",
+                    en: "Rewrote email management system using Microsoft Graph API and developed Robotic Process Automation (RPA) replacement system with Selenium Spring Boot for bank and Office of Insurance Commission (OIC) integration"
                 },
                 {
-                    th:"จัดการ Kubernetes และปรับปรุงกระบวนการ Build บน Team City เพื่อเพิ่มประสิทธิภาพและความเสถียรของระบบ",
-                    en:"DevOps & Automation Proficiency: Manage Kubernetes clusters and optimize build processes on Team City to enhance system performance and reliability"
-                },
-                {
-                    th:"Data Engineering และ SQL: จัดการข้อมูลจาก AWS S3 ผ่าน Airflow และเขียน SQL สำหรับ PostgreSQL, SQL Server, และ Oracle",
-                    en:"Data Engineering & SQL: Handle data workflows from AWS S3 via Airflow and write SQL queries for PostgreSQL, SQL Server, and Oracle databases"
+                    th: "Migrate ระบบ Financial จาก WebSphere สู่ Spring Boot และอัปเกรด database จาก AS400 เป็น SQL Server เพื่อแก้ปัญหาประสิทธิภาพ",
+                    en: "Migrated financial system from WebSphere to Spring Boot and upgraded database from AS400 to SQL Server, resolving performance issues"
                 }
-                // {
-                //     th:"สนับสนุนและแก้ไขปัญหาโปรเจค Java Spring Boot, Scala Play, และ Angular",
-                //     en:"Provide expert support and issue resolution for projects using Java Spring Boot, Scala Play, and Angular"
-                // },
-                // {
-                //     th:"จัดการข้อมูลจาก AWS S3 สู่ระบบ Local ผ่าน Airflow",
-                //     en:"Manage data workflows from AWS S3 to local environments via Airflow"
-                // },
-                // {
-                //     th:"Debug และแก้ไขปัญหาได้อย่างรวดเร็วในสถานการณ์ฉุกเฉิน",
-                //     en:"Excel in rapid debugging and critical problem resolution"
-                // },
-                // {
-                //     th:"พัฒนาทักษะ DevOps ด้วยการจัดการ Cluster, Kubernetes และปรับปรุงขั้นตอน Build บน Team City",
-                //     en:"Develop advanced DevOps skills with cluster management, Kubernetes, and optimized build processes on Team City"
-                // },
-                // {
-                //     th:"เขียน SQL สำหรับจัดการข้อมูลทั้ง PostgreSQL, SQL Server และ Oracle",
-                //     en:"Write SQL queries to manage data across PostgreSQL, SQL Server, and Oracle databases"
-                // },
-                // {
-                //     th:"จัดทำเอกสาร Integration และ API Specification พร้อมประสานงานกับลูกค้า",
-                //     en:"Prepare high-quality integration documentation and API specifications while effectively communicating with clients"
-                // }
             ],
             techStack: [
                 "Spring Boot",
                 "Angular.ts",
-                "Docker",
+                "SQL Server",
+                "DB2",
+                "ElasticSearch",
+                "Kafka"
+            ],
+            type: "professional"
+        },
+        {
+            title: {
+                th: "Full-Stack Developer",
+                en: "Full-Stack Developer"
+            },
+            company: "BRAINERGY Co.,Ltd.",
+            link: "https://brainergy.digital/",
+            startDate: "2025-01",
+            endDate: "2025-04",
+            details: [
+                {
+                    th: "ความเชี่ยวชาญทางเทคนิค: แก้ไขปัญหาและพัฒนาโปรเจคด้วยเทคโนโลยี Java Spring Boot, Scala Play และ Angular (TypeScript) ในสภาพแวดล้อมที่มีความซับซ้อน",
+                    en: "Technical Expertise: Resolve complex issues and develop projects using Java Spring Boot, Scala Play, and Angular in sophisticated environments"
+                },
+                {
+                    th: "จัดการ Kubernetes และปรับปรุงกระบวนการ Build บน Team City เพื่อเพิ่มประสิทธิภาพและความเสถียรของระบบ",
+                    en: "DevOps & Automation Proficiency: Manage Kubernetes clusters and optimize build processes on Team City to enhance system performance and reliability"
+                },
+                {
+                    th: "Data Engineering และ SQL: จัดการข้อมูลจาก AWS S3 ผ่าน Airflow และเขียน SQL สำหรับ PostgreSQL, SQL Server, และ Oracle",
+                    en: "Data Engineering & SQL: Handle data workflows from AWS S3 via Airflow and write SQL queries for PostgreSQL, SQL Server, and Oracle databases"
+                }
+            ],
+            techStack: [
+                "Spring Boot",
+                "Angular.ts",
                 "PostgreSQL",
                 "Kubernetes",
                 "AWS",
                 "Python",
-            ]
+                "Kafka"
+            ],
+            type: "professional"
         },
         {
             title: {
-                th: "Developer (นักศึกษาฝึกงาน)",
-                en: "Developer (Intern)"
+                th: "Full-Stack Developer (นักศึกษาฝึกงาน)",
+                en: "Full-Stack Developer (Intern)"
             },
             company: "BRAINERGY Co.,Ltd.",
             link: "https://brainergy.digital/",
@@ -102,27 +108,16 @@ export const data: IData = {
             endDate: "2025-02",
             details: [
                 {
-                    th: "พัฒนาระบบ Core สำหรับ e-wallet พร้อมระบบ Backoffice และ OpenAPI เพื่อรองรับการทำงานของแพลตฟอร์ม e-wallet (Angular.ts, Spring Boot Java)",
-                    en: "Full-stack development of an e-wallet core system, back-office platform, and external API (OpenAPI) to support the e-wallet platform. (Angular.ts, Spring Boot Java)"
+                    th: "พัฒนาระบบ e-wallet core, Backoffice และ OpenAPI พร้อมระบบ PDF/A-3, PDF signing และ XML generation สำหรับ e-tax invoices",
+                    en: "Developed e-wallet core system, back-office, OpenAPI, and e-tax invoice system with PDF/A-3 generation, signing, and XML processing"
                 },
                 {
-                    th: "พัฒนาระบบสร้างเอกสาร PDF/A3, การเซ็นเอกสาร PDF และการสร้าง XML สำหรับใบกำกับภาษีอิเล็กทรอนิกส์ e-tax [Spring Boot Kotlin]",
-                    en: "Developed a PDF/A-3 document generation, PDF signing, and XML generation system for e-tax invoices. [Spring Boot Kotlin]"
-                },
-                {
-                    th: "พัฒนาระบบสำหรับการจัดการราคาสินค้าและโปรโมชั่น ให้กับหน่วยงานภาครัฐ [Angular.ts, Spring Boot Java]",
-                    en: "Developed a product pricing and promotion management system for government agencies. [Angular.ts, Spring Boot Java]"
-                },
-                // {
-                //     th: "พัฒนา CLI tools สำหรับการ Unit Testing API [GoLang, .Net Core C#]",
-                //     en: "Developed CLI tools for API unit testing. [GoLang, .Net Core C#]"
-                // },
-                // {
-                //     th: "พัฒนาระบบระบบแนะนำสินค้า โดยใช้ข้อมูลจากแบบสำรวจ [Angular.ts, Spring Boot Java]",
-                //     en: "Developed a Retail Recommendation System using Servey Data [Angular.ts, Spring Boot Java]"
-                // }
+                    th: "พัฒนาระบบจัดการราคาสินค้าและโปรโมชั่นสำหรับหน่วยงานภาครัฐ",
+                    en: "Built product pricing and promotion management system for government agencies"
+                }
             ],
-            techStack: ["Spring Boot", "Angular.ts", ".Net Core", "Docker", "PostgreSQL", "Jira"]
+            techStack: ["Spring Boot", "Angular.ts", ".Net Core", "Docker", "PostgreSQL", "Jira"],
+            type: "early-career"
         },
         {
             title: {
@@ -135,15 +130,12 @@ export const data: IData = {
             endDate: "2023-05",
             details: [
                 {
-                    th: "พัฒนา API สำหรับระบบ E-Tax Invoice สำหรับการทำ Custom Integration กับระบบของลูกค้า",
-                    en: "API Development for E-Tax Invoice System for custom integration with the client's system"
-                },
-                {
-                    th: "พัฒนาระบบบันทึกเวลาทำงานที่รองรับการซิงโครไนซ์ข้อมูลแบบเรียลไทม์ และรายงานอัตโนมัติ เพื่อเพิ่มประสิทธิภาพทีม",
-                    en: "Full-Stack Developed a responsive timesheet system with real-time synchronization and automated reporting to improve team productivity."
+                    th: "พัฒนา API สำหรับระบบ E-Tax Invoice และระบบบันทึกเวลาทำงานแบบเรียลไทม์พร้อมรายงานอัตโนมัติ",
+                    en: "Developed E-Tax Invoice API for custom integration and built real-time timesheet system with automated reporting"
                 }
             ],
-            techStack: ["Django", "Angular.ts", "Docker", "PostgreSQL", "TeamCity", "ClickUp", "ArgoCD"]
+            techStack: ["Django", "Angular.ts", "Docker", "PostgreSQL", "TeamCity", "ClickUp", "ArgoCD"],
+            type: "early-career"
         },
         {
             title: {
@@ -156,31 +148,43 @@ export const data: IData = {
             endDate: "2022-04",
             details: [
                 {
-                    th: "พัฒนาและดูแลเว็บไซต์ของบริษัท Est Serend Engineering Co.,Ltd.",
-                    en: "Develop and maintain the website of Est Serend Engineering Co.,Ltd."
-                },
-                {
-                    th: "พัฒนาและดูแลระบบในการจัดการ Certificate ของบริษัท",
-                    en: "Develop and maintain the Certificate management system of the company"
+                    th: "พัฒนาเว็บไซต์และระบบจัดการใบรับรองภายในองค์กร",
+                    en: "Developed company website and internal certificate management system"
                 }
             ],
-            techStack: ["Django", "React.js", "Vue.js", "Docker", "PostgreSQL", "Firebase", "Google Cloud"]
+            techStack: ["Django", "React.js", "Vue.js", "Docker", "PostgreSQL", "Firebase", "Google Cloud"],
+            type: "early-career"
         }
     ],
-    prijectAndRewards: [
+    projectAndRewards: [
         {
             title: {
-                th: "1st Prize: INNOVATION from Hackathon U League for All 2022",
-                en: "1st Prize: INNOVATION from Hackathon U League for All 2022"
+                th: "InCIT 2024: Certificate of Recognition for Outstanding Quality and Ethics",
+                en: "InCIT 2024: Certificate of Recognition for Outstanding Quality and Ethics"
+            },
+            link: "https://www.up.ac.th/NewsRead.aspx?itemID=33350",
+            subtitle: {
+                th: "The 8th International Conference on Information Technology",
+                en: "The 8th International Conference on Information Technology"
+            },
+            details: {
+                th: "ได้รับประกาศเกียรติคุณระดับนานาชาติสำหรับคุณภาพและจริยธรรมดีเด่นในสาขาเทคโนโลยีสารสนเทศ",
+                en: "Recognized at international conference for outstanding quality and ethics in information technology"
+            }
+        },
+        {
+            title: {
+                th: "1st Prize INNOVATION - Hackathon U League for All 2022",
+                en: "1st Prize INNOVATION - Hackathon U League for All 2022"
             },
             link: "https://www.pim.ac.th/archives/22152",
             subtitle: {
-                th: "Project: All Caring (Physical Therapy Platform)",
-                en: "Project: All Caring (Physical Therapy Platform)"
+                th: "All Caring - Physical Therapy Platform",
+                en: "All Caring - Physical Therapy Platform"
             },
             details: {
-                th: "ได้รับรางวัลชนะเลิศในหมวดนวัตกรรมจาก Hackathon U League for All 2022 สำหรับโครงการ \"All Caring\" แพลตฟอร์มที่ช่วยให้ญาติสามารถกายภาพบำบัดให้แก่ผู้ป่วยติดเตียงได้อย่างถูกต้องและเหมาะสมกับแต่ละบุคคล",
-                en: "Awarded 1st prize in the Innovation category at the Hackathon U League for All 2022 for the project \"All Caring,\" a platform that enables relatives to provide appropriate physical therapy to bedridden patients."
+                th: "รางวัลชนะเลิศหมวดนวัตกรรม แพลตฟอร์มกายภาพบำบัดสำหรับผู้ป่วยติดเตียง",
+                en: "1st prize for innovative platform enabling personalized physical therapy for bedridden patients"
             }
         },
         {
@@ -198,42 +202,60 @@ export const data: IData = {
                 en: "Awarded the Special Award at the Smart Gen Tourism Challenge 2023 for developing \"Lomwong Local Connect,\" a community tourism platform aimed at connecting local communities with tourists to promote sustainable tourism."
             }
         },
-        // {
-        //     title: {
-        //         th: "Selected as a Finalist for the 22nd Thailand Innovation Awards",
-        //         en: "Selected as a Finalist for the 22nd Thailand Innovation Awards"
-        //     },
-        //     link: "https://line.me/R/ti/p/%40902uxpci",
-        //     subtitle: {
-        //         th: "Project: Bot Pharmacy (Line Chatbot for Pharmacy Management)",
-        //         en: "Project: Bot Pharmacy (Line Chatbot for Pharmacy Management)"
-        //     },
-        //     details: {
-        //         th: "ได้รับการคัดเลือกเป็นผู้เข้ารอบสุดท้ายในงาน Thailand Innovation Awards ครั้งที่ 22 สำหรับโปรเจกต์ \"Bot Pharmacy\" ซึ่งเป็น Line Chatbot ที่ช่วยในการจัดการระบบเภสัชกรรม",
-        //         en: "Selected as a finalist for the 22nd Thailand Innovation Awards for the project \"Bot Pharmacy,\" a Line Chatbot that helps manage pharmacy systems."
-        //     }
-        // },
         {
             title: {
-                th: "InCIT 2024: The 8th International Conference on Information Technology",
-                en: "InCIT 2024: The 8th International Conference on Information Technology"
+                th: "Core System and Infrastructure Factory: machinery inspection and certification Company",
+                en: "Core System and Infrastructure Factory: machinery inspection and certification Company"
             },
-            link: "https://www.up.ac.th/NewsRead.aspx?itemID=33350",
+            link: "",
             subtitle: {
-                th: "Award: Certificate of Recognition for Outstanding Quality and Ethics in Information Technology, InCIT 2024",
-                en: "Award: Certificate of Recognition for Outstanding Quality and Ethics in Information Technology, InCIT 2024"
+                th: "Off-Hours Technical Project",
+                en: "Off-Hours Technical Project"
             },
             details: {
-                th: "ได้รับประกาศเกียรติคุณในงาน InCIT 2024 ซึ่งเป็นการประชุมวิชาการระดับนานาชาติด้านเทคโนโลยีสารสนเทศ โดยยกย่องในฐานะนักศึกษาสาขาเทคโนโลยีสารสนเทศที่มีคุณภาพและจริยธรรมดีเด่น ประจำปี 2567",
-                en: "Honored at InCIT 2024, an international conference on information technology, with a certificate recognizing outstanding quality and exemplary ethics as an information technology student in 2024."
+                th: "พัฒนาระบบแกนกลางสำหรับธุรกิจตรวจสอบและออกใบรับรองเครื่องจักรในโรงงาน รองรับการติดตามสถานะการตรวจสอบแบบเรียลไทม์ และการออกเอกสารรับรอง (Certification) โดยใช้ Java Spring Boot, PostgreSQL และ Flutter สำหรับ Mobile Application",
+                en: "Developed a business core system for factory machinery inspection and certification, supporting real-time inspection status tracking and certification document generation using Java Spring Boot, PostgreSQL, and Flutter for the mobile application"
             }
         },
+        {
+            title: {
+                th: "Facial Recognition Authentication (AWS Rekognition)",
+                en: "Facial Recognition Authentication (AWS Rekognition)"
+            },
+            link: "",
+            subtitle: {
+                th: "Off-Hours Technical Project",
+                en: "Off-Hours Technical Project"
+            },
+            details: {
+                th: "พัฒนาระบบยืนยันตัวตนด้วยใบหน้า โดยใช้ AWS Rekognition เชื่อมต่อกับ Flutter Application",
+                en: "Developed a facial-based authentication system using AWS Rekognition, integrated with a Flutter application"
+            }
+        },
+        {
+            title: {
+                th: "Handwritten Signature Verification using Siamese Neural Network",
+                en: "Handwritten Signature Verification using Siamese Neural Network"
+            },
+            link: "",
+            subtitle: {
+                th: "Off-Hours Technical Project",
+                en: "Off-Hours Technical Project"
+            },
+            details: {
+                th: "พัฒนาระบบตรวจสอบลายเซ็นลายมือ โดยใช้ Siamese Neural Network",
+                en: "Developed a handwritten signature verification system using a Siamese Neural Network"
+            }
+        },
+
+
+
     ],
     educations: [
         {
             title: {
                 th: "ปริญญาตรี",
-                en: "Bachelor’s Degree"
+                en: "Bachelor's Degree"
             },
             faculty: {
                 th: "วิศวกรรมศาสตร์และเทคโนโลยี",
@@ -248,30 +270,30 @@ export const data: IData = {
                 en: "Panyapiwat Institute of Management",
             },
             isGraduated: true,
-            year: "2021",
+            year: 2021,
             gpa: "4.00"
         }
     ],
     skills: [
-        // {
-        //     title: "Programming Languages",
-        //     details: ["Java", "Kotlin", "Python", "JavaScript", "TypeScript", "GoLang", "C#", "Bash", "Scala"]
-        // },
+        {
+            title: "Programming Languages",
+            details: ["Java", "Kotlin", "Python", "JavaScript", "TypeScript", "GoLang", "C#", "Bash", "Scala", "SQL", "HTML", "CSS", "Dart"]
+        },
         {
             title: "BackEnd",
-            details: ["Spring Boot", "Django", "Play", ".Net Core", "Kubernetes", "Docker", "PostgreSQL", "MySQL", "MongoDB"]
+            details: ["Spring Boot", "Django", "Play", ".Net Core", "Kubernetes", "Docker", "PostgreSQL", "MySQL", "MongoDB", "SQL Server", "DB2"]
         },
         {
             title: "FrontEnd",
-            details: ["Angular.ts", "React.js", "Vue.js", "Svelte.ts", "Bootstrap", "Material-UI"]
+            details: ["Angular.ts", "React.js", "Vue.js", "Svelte.ts", "Bootstrap", "Material-UI", "Tailwind CSS", "Flutter"]
         },
         {
             title: "Tools",
-            details: ["Git", "Jira", "ClickUp", "TeamCity", "AWS", "ArgoCD", "Firebase", "Google Cloud", "DigitalOcean"]
+            details: ["Git", "Jira", "ClickUp", "TeamCity", "AWS", "ArgoCD", "Firebase", "Google Cloud", "DigitalOcean", "Jenkins", "AS400",]
         },
-        // {
-        //     title: "OS",
-        //     details: ["Windows", "Linux"]
-        // }
+        {
+            title: "Other Skills",
+            details: ["Data Engineering", "DevOps", "Robotic Process Automation (RPA)", "Agile Methodologies", "Unit Testing", "CI/CD"]
+        }
     ]
 }
