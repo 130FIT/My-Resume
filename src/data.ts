@@ -11,19 +11,19 @@ export const data: IData = {
     phone: phone,
     infos: [
         {
-            icon: "/src/assets/email.svg",
+            icon: "/email.svg",
             alt: "email-icon",
             link: `mailto:${email}`,
             text: email,
         },
         {
-            icon: "/src/assets/phone.svg",
+            icon: "/phone.svg",
             alt: "phone-icon",
             link: `tel:${phone}`,
             text: phone.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3'),
         },
         {
-            icon: "/src/assets/github.svg",
+            icon: "/github.svg",
             alt: "github-icon",
             link: `https://github.com/130FIT`,
             text: "https://github.com/130FIT"
